@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+
+body
+{
+    background: #000;
+}
+.unbreakable-container
+{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.unbreakable
+{
+    font-family: 'Anton', sans-serif;
+    line-height: 1;
+
+    letter-spacing: -.07em;
+
+    color: #fff;
+}
+
+.ks
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    line-height: 1;
+
+    margin-top: -11px;
+
+    -webkit-transition: all .3s ease-in-out;
+            transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 3s;
+    -webkit-transform: translateX(-1000%);
+        -ms-transform: translateX(-1000%);
+            transform: translateX(-1000%);
+    letter-spacing: -1px;
+    text-transform: uppercase;
+
+    color: #fc0;
+}
+
+.animate .ks
+{
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+}
+
+span
+{
+    font-family: 'Anton', Helvetica, sans-serif;
+    font-size: 40px;
+
+    text-transform: uppercase;
+
+    opacity: 0;
+    color: #fff;
+
+    filter: alpha(opacity=0);
+}
+
+.able
+{
+    -webkit-transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 2.3s;
+            transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 2.3s;
+    letter-spacing: -.07em;
+}
+
+.break
+{
+    -webkit-transition: all .3s ease-in-out 2s;
+            transition: all .3s ease-in-out 2s;
+    letter-spacing: -.07em;
+}
+
+.un
+{
+    -webkit-transition: all .3s ease-in-out 1.7s;
+            transition: all .3s ease-in-out 1.7s;
+    letter-spacing: -.07em;
+}
+
+.animate .un
+{
+    font-size: 40px;
+
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+
+    opacity: 1;
+
+    filter: alpha(opacity=100);
+}
+
+.animate .break
+{
+    font-size: 60px;
+
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+
+    opacity: 1;
+
+    filter: alpha(opacity=100);
+}
+
+.animate .able
+{
+    font-size: 80px;
+
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+
+    opacity: 1;
+
+    filter: alpha(opacity=100);
+}
+
+.container{
+    width: 99%;
+    height: 70%;
+    float: left;
+}
+.profileCard {
+    width: 500px;
+    height: 280px;
+    border: 3px solid #fc0;
+    margin-top: 13%;
+    margin-left: 40%;
+}
+
+
+p {
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+    text-size-adjust: inherit;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-left: 30%;
+    font-weight: bolder;
+    text-align: center;
+    text-size-adjust: inherit;
+    font-family:'Times New Roman', Times, serif;
+    display: inline-block;
+    color: #fc0
+}
+.line{
+    width: 80%;
+    border: 1px solid #fc0;
+    margin-left: 40px;
+    
+}
+
+.mail {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-display: inherit;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.github {
+    float: left;
+    padding: 13px;
+    margin-left: 20px;
+    width: 7%;
+    height: 13%;
+}
+
+.in {
+    float: left;
+    padding: 13px;
+    margin-left: 7%;
+    width: 7%;
+    height: 13%;
+}
+
+.twitter {
+    float: left;
+    margin-left: 8%;
+    padding: 13px;
+    width: 7%;
+    height: 13%;
+}
+.face {
+    float: left;
+    margin-left: 8%;
+    padding: 13px;
+    width: 7%;
+    height: 13%;
+}
+
+.instagram {
+    float: left;
+    margin-left: 8%;
+    padding: 13px;
+    width: 7%;
+    height: 13%;
+}
+.ahref{
+    color: #fc0;
+}
+
+.r1{
+    margin-left: 30%;
+    color: #9400D3;
+}
+.r2{
+    color: #4B0082;
+}
+.r3{
+    color: #0000FF;
+}
+.r4{
+    color: #00FF00;
+}
+.r5{
+    color: #FFFF00;
+}
+.r6{
+    color: #FF7F00;
+}
+.r7{
+    color: #FF0000;
+}
